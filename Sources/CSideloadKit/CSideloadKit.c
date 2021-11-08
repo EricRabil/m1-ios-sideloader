@@ -4,6 +4,8 @@
 //
 //  Created by Eric Rabil on 11/7/21.
 //
+//  Derived from https://gist.github.com/jhftss/729aea25511439dc34f0fdfa158be9b6
+//
 
 #include "CSideloadKit.h"
 
