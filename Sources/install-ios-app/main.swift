@@ -56,6 +56,7 @@ class Installer: Command {
 
         let info = try app.readInfo()
         info.assert(minimumVersion: 11.0)
+        info[bool: "UIRequiresFullScreen"] = nil
         try info.write()
         
         try app.wrap(toLocation: dstURL)
